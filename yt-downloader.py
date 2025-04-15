@@ -7,6 +7,7 @@ ydl_opts = {
     'merge_output_format': 'mp4',
     'outtmpl': '%(title)s.%(ext)s',
     'restrictfilenames': True,
+    'cookiesfrombrowser': ('chrome',),
 }
 
 
